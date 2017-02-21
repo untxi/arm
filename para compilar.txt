@@ -1,5 +1,13 @@
+En Raspberry Pi
+
 Save file: fileName.s
 Assemble file: as -o fileName.o fileName.s
 Complie File: gcc -o fileName fileName.o
 Execute File: ./fileName
 Execute File and See Outputs: ./fileName ; echo $?
+
+
+En linux
+arm-linux-gnueabi-gcc -o mystery.o mystery.s
+./fileName ; echo $?
+

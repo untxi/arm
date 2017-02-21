@@ -1,4 +1,4 @@
-/* -- collatz.s */
+/* -- ifLoop.s */
 .text
 .global main
 main:
